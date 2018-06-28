@@ -1,0 +1,22 @@
+applications:
+- path: .
+memory: 256M
+instances: 1
+domain: mybluemix.net
+name: ncschatbot2
+host: ncschatbot2
+services:
+- ncschatbot2-cloudantNoSQLDB
+env:
+  CHANNEL_ACCESS_TOKEN: x/1DucvgNCuEIbXxcXY1ramMRalxAtFSSt8/i+QSQvKwXCGfIwkx88GLdAeONdlfgD9H697PRp/GE3mMEg9gNPQXJN10m2QYQ8xfv5f/qz1FWMC2xvv8jM92qNH0WnbMcqJuKdL8whFR7f1z2vmedQdB04t89/1O/w1cDnyilFU=
+  CHANNEL_SECRET: 9dd4e5c8b4af82ef3ed731f887ff9183
+  LANGUAGETRANSLATOR_USERNAME: auto-generated-apikey-146bc68c-d792-47d0-abde-21d07b66b550
+  LANGUAGETRANSLATOR_PASSWORD: faDV5lGL7htLqUyBdO4gWKRp-4KIRUx7AJczVXUQ1zA5
+  ASSISTANT_USERNAME: 33b4f84f-4e74-4d14-99ed-1dd94f4c2cc8
+  ASSISTANT_PASSWORD: QJvBJrPwuoVf
+  ASSISTANT_WORKSPACE: 638c33b3-485c-4889-b6fb-d6aebf1231cb
+  CRADLE_USERNAME: 5347bc7e-47ce-4131-97c0-57e2e00e91a9-bluemix
+  CRADLE_PASSWORD: 13c091599edafbeef611460347254ca6322d26daea23e5259b960ec25a5e6505
+  CRADLE_HOST: 5347bc7e-47ce-4131-97c0-57e2e00e91a9-bluemix.cloudant.com
+  CRADLE_PORT: 443
+  CRADLE_URL: https://5347bc7e-47ce-4131-97c0-57e2e00e91a9-bluemix:13c091599edafbeef611460347254ca6322d26daea23e5259b960ec25a5e6505@5347bc7e-47ce-4131-97c0-57e2e00e91a9-bluemix.cloudant.com
