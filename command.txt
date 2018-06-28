@@ -1,0 +1,11 @@
+set http_proxy=http://92625:Sai%40667788@proxy.ncs-net.co.jp:8080
+set https_proxy=http://92625:Sai%40667788@proxy.ncs-net.co.jp:8080
+
+cf api https://api.ng.bluemix.net
+cf login -u guangde_cui@ncs-net.co.jp -p Ccc@12345 -o guangde_cui@ncs-net.co.jp -s dev
+cf push
+
+npm -g config set proxy http://92625:Sai%40667788@proxy.ncs-net.co.jp:8080
+npm -g config set https-proxy http://92625:Sai%40667788@proxy.ncs-net.co.jp:8080
+npm -g config set registry http://registry.npmjs.org/
+
